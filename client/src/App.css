@@ -1,0 +1,24 @@
+
+@media (max-width: 1024px) {
+  .profile-pic-container {
+    width: 100%;
+    height: auto;
+  }
+
+  .profile-pic {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 768px) {
+  .profile-pic-container {
+    width: 300px;
+    height: auto;
+  }
+
+  .profile-pic {
+    width: 300px;
+    height: auto;
+  }
+}

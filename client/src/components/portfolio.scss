@@ -1,0 +1,423 @@
+
+#about {
+    margin-top: 3rem;
+    padding-left: 11rem;
+    padding-right: 11rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+    h2 {
+      font-size: 2.5rem;
+      font-weight: bold;
+      align-items: center;
+    }
+  
+    .quote-icon {
+      background-color: #16a34a;
+      padding: 0.75rem;
+      font-size: 2.75rem;
+      border-radius: 50%;
+      margin-top: 1.5rem;
+      color: white;
+    }
+  
+    .description {
+      margin: 1.25rem 0;
+      color: #4a5568;
+      font-size: 0.875rem;
+    }
+  }
+
+.contact-container {
+    display: flex;
+    align-items: center;
+  
+    .dot {
+      width: 20px;
+      height: 7px;
+      background-color: #16a34a;
+      border-radius: 9999px; 
+    }
+  
+    .line {
+      width: 100%; 
+      border-width: 1px; 
+      margin-left: 1rem; 
+      margin-right: 1rem; 
+      margin-top: -2px; 
+    }
+  
+    .heading {
+      font-size: 24px; 
+      font-weight: 700; 
+    }
+  }
+
+.header-container {
+    display: flex;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    justify-content: space-between;
+    border-bottom-width: 1px;
+    background-color: white;
+  }
+  
+  .mail-icon-container {
+    width: 90px;
+    height: 90px;
+    background-color: #ef4444; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+    a {
+      width: 2.5rem; 
+      height: 2.5rem; 
+      color: white;
+    }
+  
+    svg {
+      width: 2.5rem; 
+      height: 2.5rem; 
+      color: white;
+    }
+  }
+
+  
+#home {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  
+    .vertical-line {
+      height: 120px; 
+      border-right-width: 1px; 
+      margin-top: -60px; 
+    }
+  
+    .small-dot {
+      width: 5px; 
+      height: 5px; 
+      background-color: #16a34a; 
+      border-radius: 9999px; 
+    }
+  
+    .hello-text {
+      margin-top: 20px; 
+      color: black;
+      font-weight: 500; 
+      font-size: 13px; 
+      letter-spacing: 0.125em; 
+    }
+  
+    .name-text {
+      font-size: 30px; 
+      font-weight: bold; 
+      color: black;
+      letter-spacing: 0.125em; 
+      margin-top: 20px; 
+    }
+  
+    .avatar {
+      width: 160px; 
+      height: 160px; 
+      background-color: #e5e7eb; 
+      padding: 1.75rem; 
+      border-radius: 9999px; 
+    }
+  }
+
+
+.progress-bar-container {
+    width: 1.5rem; 
+    background-color: #e5e7eb; 
+    position: fixed;
+    margin-left: -5px; 
+    margin-top: 90px; 
+    height: 100%; 
+    margin-bottom: 4px; 
+  
+    .progress-bar-fill {
+      background-color: #16a34a; 
+      transition: height 1s ease-out;
+    }
+  }
+
+// .projects-container {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 2rem; 
+//     padding-top: 3rem;
+//   }
+  
+//   .project-item {
+//     text-align: center;
+//     max-width: 240px; 
+//     padding: 1rem;
+//     border: 1px solid #e5e7eb; 
+//     border-radius: 0.5rem; 
+//     margin-bottom: 2rem; 
+//     background-color: white; 
+  
+//     img {
+//       width: 80px; 
+//       height: 80px; 
+//       margin-bottom: 1rem; 
+//     }
+  
+//     h2 {
+//       font-size: 1.25rem; 
+//       font-weight: 500; 
+//       margin-bottom: 0.5rem;
+//       color: black; 
+//     }
+  
+//     p {
+//       font-size: 0.875rem; 
+//       color: #6b7280;
+//     }
+  
+//     a {
+//       color: #3b82f6; 
+//       transition: color 0.3s ease; 
+//       margin-top: 0.5rem;
+  
+//       &:hover {
+//         color: #2563eb;
+//       }
+//     }
+//   }
+//20th 
+/* Projects Section */
+/* Projects Section */
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; 
+  padding-top: 3rem;
+}
+
+/* Project Item */
+.project-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1.5rem;
+  background-color: #fff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 0.5rem;
+  transition: border 0.3s ease, box-shadow 0.3s ease; 
+  text-align: center; // Center align text
+  width: 250px; // Adjust width as needed
+  border: 2px solid transparent; 
+}
+
+.project-item:hover {
+  border: 2px solid #28a745; // Green outline on hover
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-item img {
+  width: 80px; // Adjust size of project icons
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.project-item h2 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+}
+
+.project-item p {
+  color: #555; // Slightly darker text for description
+}
+
+.project-item a {
+  color: #2896b2; // Blue color for links
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.project-item a:hover {
+  color: #1d72b8; // Darker blue for link hover
+}
+
+.scroll-to-top {
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 1000;
+    cursor: pointer;
+  
+    svg {
+      width: 40px;
+      height: 40px;
+      background-color: #16a34a;
+      border-radius: 50%;
+      padding: 10px;
+      color: white;
+      transition: transform 0.3s;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  
+.side-bar {
+    width: 90px; 
+    border-right: 1px solid #cbd5e0; 
+    background-color: #ffffff; 
+    height: 110vh; 
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 90px; 
+  
+    h2 {
+      transform: rotate(-90deg); 
+      font-size: 14px;
+      cursor: pointer;
+      margin-bottom: 20px; 
+      transition: transform 0.3s ease-in-out;
+  
+      &:hover {
+        transform: rotate(-45deg); 
+      }
+    }
+  
+    .icon {
+      font-size: 24px; 
+      cursor: pointer;
+      transition: transform 0.3s ease-in-out;
+  
+      &:hover {
+        transform: scale(1.1); 
+      }
+    }
+  }
+
+// .skills-container {
+//     display: flex;
+//     flex-wrap: wrap;
+//     justify-content: center;
+//     align-items: center;
+//     gap: 2rem;
+//     padding: 3rem 0;
+//     background-color: #fff;
+//   }
+
+/* Skills Section */
+.skills-container {
+  @media (max-width: 640px) {
+    .skill-item {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 640px) {
+    .skill-item {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .skill-item {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .skill-item {
+      width: 100%;
+    }
+  }
+}
+
+  
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    // background-color: white;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+  }
+  
+  // .skill-item:hover {
+  //   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  // }
+  
+  .skill-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .skill-item span {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .projects-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 3rem 0;
+    background-color: #fff;
+  }
+  
+  .project-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    width: 250px;
+  }
+  
+  .project-item img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 1rem;
+  }
+  
+  .project-item h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+  }
+  
+  .project-item p {
+    font-size: 1rem;
+    color: #6b7280;
+    text-align: center;
+  }
+
+  h5 {
+    cursor: pointer;
+    transition: color 30s ease, text-decoration-color 30s ease;
+  
+    &:hover {
+      text-decoration:overline;
+      text-decoration-color: #16a34a; /* Apply green color to the underline */
+    }
+  }
+  
+  
