@@ -11,7 +11,7 @@ function SideBar() {
   };
 
   const handleResumeClick = () => {
-    window.open("https://karuppasamy.tiiny.site/");
+    window.open("https://karuppasamy-resume-2024.tiiny.site/");
   };
 
   return (
